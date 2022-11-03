@@ -1,6 +1,7 @@
 -- Mostra os perfis de acesso do usuario do professor
 
 SELECT
+	DISTINCT
 	GUSRPERFIL.CODPERFIL
 
 FROM  SPROFESSOR (NOLOCK)
