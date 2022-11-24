@@ -12,7 +12,7 @@ select
 	
 
 
-from smatricpl (nolock)
+from smatricpl (NOLOCK)
 INNER JOIN spletivo (NOLOCK) 
 		ON spletivo.idperlet = smatricpl.idperlet
 INNER JOIN sstatus (NOLOCK)
