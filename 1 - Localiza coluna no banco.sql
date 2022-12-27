@@ -1,3 +1,5 @@
+-- Ajuda a localizar coluna em banco
+
 SELECT
     T.name AS Tabela,
     C.name AS Coluna
